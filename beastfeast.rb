@@ -12,3 +12,10 @@ def feast(beast, dish)
     return false # elsif returned an error, I don't typically like to put anything in my else returns.
   end
 end
+
+# def feast(beast, dish)
+#  if beast[0] == dish[0] and beast[-1] == dish[-1]
+#    return true
+#  end
+#  false
+# end
