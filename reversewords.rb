@@ -6,5 +6,8 @@ def reverse_words(str)
       else new_string << x.reverse + ' '
         end
       end
-  new_string.join
+  new_string.join.chomp
 end
+
+
+puts reverse_words('hello my dolly')
